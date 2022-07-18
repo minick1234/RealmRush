@@ -1,0 +1,371 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 32681 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\UnityEditors\2021.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker64
+-projectPath
+C:/MYWHOLEASSDESKTOP/RealmRush/RealmRush
+-logFile
+Logs/AssetImportWorker64.log
+-srvPort
+58047
+Successfully changed project path to: C:/MYWHOLEASSDESKTOP/RealmRush/RealmRush
+C:/MYWHOLEASSDESKTOP/RealmRush/RealmRush
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 428.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.6f1 (7da38d85baf6)
+[Subsystems] Discovering subsystems at path C:/UnityEditors/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/MYWHOLEASSDESKTOP/RealmRush/RealmRush/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 Ti (ID=0x1e07)
+    Vendor:   NVIDIA
+    VRAM:     11049 MB
+    Driver:   31.0.15.1659
+Initialize mono
+Mono path[0] = 'C:/UnityEditors/2021.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/UnityEditors/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/UnityEditors/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/UnityEditors/2021.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/UnityEditors/2021.3.6f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/UnityEditors/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/UnityEditors/2021.3.6f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/UnityEditors/2021.3.6f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: C:/UnityEditors/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/UnityEditors/2021.3.6f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:/UnityEditors/2021.3.6f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.004885 seconds.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 484.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.973 seconds
+Domain Reload Profiling:
+	ReloadAssembly (974ms)
+		BeginReloadAssembly (53ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (835ms)
+			LoadAssemblies (53ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (91ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (671ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (54ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (485ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (86ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004739 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\MYWHOLEASSDESKTOP\RealmRush\RealmRush\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\MYWHOLEASSDESKTOP\RealmRush\RealmRush\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 455.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.009 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2010ms)
+		BeginReloadAssembly (199ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (119ms)
+		EndReloadAssembly (1708ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (255ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (1286ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (456ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (633ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 5.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5173 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 58 unused Assets / (1.8 MB). Loaded Objects now: 5621.
+Memory consumption went from 267.8 MB to 266.0 MB.
+Total: 3.072800 ms (FindLiveObjects: 0.360300 ms CreateObjectMapping: 0.327000 ms MarkObjects: 2.094300 ms  DeleteObjects: 0.290600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 522046.571405 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyCharacters/Models/FixedScaleCharacters/Characters.fbx
+  artifactKey: Guid(c9a34c70f1c0d00409f41fcfbb2a6871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyCharacters/Models/FixedScaleCharacters/Characters.fbx using Guid(c9a34c70f1c0d00409f41fcfbb2a6871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a94e54c942deb6de9020f310f52bbff7') in 0.308443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.462053 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonWar/Materials/Misc/Polygon_War_Water.mat
+  artifactKey: Guid(287f5c5596df8d94594c370c2a16aac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonWar/Materials/Misc/Polygon_War_Water.mat using Guid(287f5c5596df8d94594c370c2a16aac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5deb5fbc1a334569830749008db2b06f') in 0.022702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037899 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonBattleRoyale/Materials/FX/PolygonBattleRoyale_Water.mat
+  artifactKey: Guid(7ebfd405eb8711d4bb584f620ef5043a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonBattleRoyale/Materials/FX/PolygonBattleRoyale_Water.mat using Guid(7ebfd405eb8711d4bb584f620ef5043a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a86f4cb0d98fc2d56289c5ef048488') in 0.014655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFarm/Materials/Misc/PolygonFarm_Water.mat
+  artifactKey: Guid(a2a86c5ae886b7c44b06a6b8fa249255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFarm/Materials/Misc/PolygonFarm_Water.mat using Guid(a2a86c5ae886b7c44b06a6b8fa249255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ad5a473764efbdf2731bffda40d3dc') in 0.028439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.228324 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonPrototype/Materials/Misc/PolygonPrototype_Water.mat
+  artifactKey: Guid(3b3b5fc58ad0da34e8c6df4d5a51b035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonPrototype/Materials/Misc/PolygonPrototype_Water.mat using Guid(3b3b5fc58ad0da34e8c6df4d5a51b035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8713f2a78637c1fc5f3e6cc41f50e2a2') in 0.013965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.311972 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonVikings/Materials/PolyVikings_Material_Water.mat
+  artifactKey: Guid(8922350433fa73241aef3c0e0d5b0729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonVikings/Materials/PolyVikings_Material_Water.mat using Guid(8922350433fa73241aef3c0e0d5b0729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4cf05bcc6c6f035ef0d6f66bf805c3d') in 0.013480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.297167 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonNature/Models/River_Plane_WaterFall_01.fbx
+  artifactKey: Guid(8fb96ca5800b96747b8f0df3bb17151c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonNature/Models/River_Plane_WaterFall_01.fbx using Guid(8fb96ca5800b96747b8f0df3bb17151c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce8ad1212d31b3a661337de584e173d') in 0.016854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038454 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonApocalypse/Prefabs/Buildings/SM_Bld_WaterTank_01.prefab
+  artifactKey: Guid(46133089344458744b67372c6e18592d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonApocalypse/Prefabs/Buildings/SM_Bld_WaterTank_01.prefab using Guid(46133089344458744b67372c6e18592d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e82285ee43d8d204c29b8feafcc4a2') in 0.057679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonConstruction/Models/SM_Bld_WaterTank_01.fbx
+  artifactKey: Guid(2f2a6f1f2a57e9f4587ad3135022a79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonConstruction/Models/SM_Bld_WaterTank_01.fbx using Guid(2f2a6f1f2a57e9f4587ad3135022a79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1436a7c198c0969fad8e765d020c81e0') in 0.013897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.555209 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonConstruction/Models/SM_Bld_WaterTank_02.fbx
+  artifactKey: Guid(0e0048c3c2392124ea59614bb59a6f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonConstruction/Models/SM_Bld_WaterTank_02.fbx using Guid(0e0048c3c2392124ea59614bb59a6f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a22cd05a68b3ed167b2dd202099881fd') in 0.019349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028410 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonConstruction/Models/SM_Bld_WaterTank_03.fbx
+  artifactKey: Guid(a237a97a2a9dafe47b346cd2ee5c91de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonConstruction/Models/SM_Bld_WaterTank_03.fbx using Guid(a237a97a2a9dafe47b346cd2ee5c91de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ca9b40219b145163084919093f0d67') in 0.018408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.214556 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonApocalypse/Prefabs/Buildings/SM_Bld_WaterTower_01.prefab
+  artifactKey: Guid(49abcdc2b5ce9724687d5dd4009ae638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonApocalypse/Prefabs/Buildings/SM_Bld_WaterTower_01.prefab using Guid(49abcdc2b5ce9724687d5dd4009ae638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b236e9bfd3ffb369a7ee75344b4afe') in 0.229475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.466340 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Models/Convex/SM_Bld_Waterwheel_01_Convex 2.asset
+  artifactKey: Guid(e013a26b13291464bb4a7716698530d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Models/Convex/SM_Bld_Waterwheel_01_Convex 2.asset using Guid(e013a26b13291464bb4a7716698530d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26335353dbc4f7e9b3c44eea6439975f') in 0.036842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.251206 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonWarMap/Prefabs/Environment/SM_Env_Crater_Water_01.prefab
+  artifactKey: Guid(865130b66a69a7441a2026963d3e83b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonWarMap/Prefabs/Environment/SM_Env_Crater_Water_01.prefab using Guid(865130b66a69a7441a2026963d3e83b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66022933419f013399c06c58cca087c5') in 0.016400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002743 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonWarMap/Models/SM_Env_Crater_Water_02.fbx
+  artifactKey: Guid(cf08436b6a74dd34d95169d10be50445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonWarMap/Models/SM_Env_Crater_Water_02.fbx using Guid(cf08436b6a74dd34d95169d10be50445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d11bcaad87c603a51dd6e9d512c741') in 0.016993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.234073 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonHorrorMansion/Prefabs/Environment/SM_Env_Fountain_Water_01.prefab
+  artifactKey: Guid(92c3ff5113a1e2f43bca7a502f003f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonHorrorMansion/Prefabs/Environment/SM_Env_Fountain_Water_01.prefab using Guid(92c3ff5113a1e2f43bca7a502f003f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f41df5627ca32ca079812dfcc0414c8') in 0.050497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.249108 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonDungeon/Models/SM_Env_Sewer_Water_01.fbx
+  artifactKey: Guid(ac56c9953726bad4bad32d11c1de52fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonDungeon/Models/SM_Env_Sewer_Water_01.fbx using Guid(ac56c9953726bad4bad32d11c1de52fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efec1140ac299b353e342b6a017ea968') in 0.012463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035649 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonKnights/Models/SM_Env_Tile_Water_01.fbx
+  artifactKey: Guid(3c7aae16c757ac24c80a74429095173c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonKnights/Models/SM_Env_Tile_Water_01.fbx using Guid(3c7aae16c757ac24c80a74429095173c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9efd08cfefc9c2463c18422ca176065e') in 0.019002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.844355 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonCity/Models/SM_Env_WaterEdge_Corner_02.fbx
+  artifactKey: Guid(2e93c3b6d6a3f4041bfa4ddf0e070766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonCity/Models/SM_Env_WaterEdge_Corner_02.fbx using Guid(2e93c3b6d6a3f4041bfa4ddf0e070766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd948bcc3c5d83e67300fa40582bea6aa') in 0.024625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007887 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonCity/Models/SM_Env_WaterEdge_Pipe_01.fbx
+  artifactKey: Guid(cc6ca95801c55744096d42eec7b7a49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonCity/Models/SM_Env_WaterEdge_Pipe_01.fbx using Guid(cc6ca95801c55744096d42eec7b7a49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '658bcb67e323c1f1bba000e3c52fdff5') in 0.035820 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003716 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\MYWHOLEASSDESKTOP\RealmRush\RealmRush\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\MYWHOLEASSDESKTOP\RealmRush\RealmRush\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 5.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.275 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1276ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1086ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (267ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (661ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (6ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (482ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5053 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.7 MB). Loaded Objects now: 5680.
+Memory consumption went from 289.5 MB to 287.8 MB.
+Total: 3.249000 ms (FindLiveObjects: 0.350100 ms CreateObjectMapping: 0.301800 ms MarkObjects: 2.298900 ms  DeleteObjects: 0.297500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

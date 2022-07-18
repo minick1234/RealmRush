@@ -5810,3 +5810,252 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 580.924643 seconds.
+  path: Assets/StoreAssets/Malbers Animations/Animals Packs/01 Forest Pack/Boar/Anims/Boar Fall.FBX
+  artifactKey: Guid(5eda7f0ab5026f849a84352aa4c965a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Malbers Animations/Animals Packs/01 Forest Pack/Boar/Anims/Boar Fall.FBX using Guid(5eda7f0ab5026f849a84352aa4c965a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de278259b95510c080cc675bae56832') in 0.072340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonParticles/Prefabs/FX_Impact_Water_01.prefab
+  artifactKey: Guid(5a3c9da90a2a4ea4692cee3096b94082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonParticles/Prefabs/FX_Impact_Water_01.prefab using Guid(5a3c9da90a2a4ea4692cee3096b94082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd64c6c5155a127ae127c9a5c76d8c1ea') in 0.051356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonParticles/Prefabs/FX_WaterDrip_01.prefab
+  artifactKey: Guid(68fa1af28487ba844b3aeb5cf1381b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonParticles/Prefabs/FX_WaterDrip_01.prefab using Guid(68fa1af28487ba844b3aeb5cf1381b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3aae77e061df7c08a6bcb1e6019729f') in 0.012264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonVikings/Models/Characters.fbx
+  artifactKey: Guid(a177b0e6ff26a894180468c168e802cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonVikings/Models/Characters.fbx using Guid(a177b0e6ff26a894180468c168e802cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4407f50b5049072ff3d4bc5603fcb5') in 0.185130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonPirates/FX/FX_BoatWater_Large.prefab
+  artifactKey: Guid(fa9176762befa1f4a8ee4b0aeacac390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonPirates/FX/FX_BoatWater_Large.prefab using Guid(fa9176762befa1f4a8ee4b0aeacac390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a443ee3f2c27656cb19558444d54945') in 0.015574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.261238 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonPirates/Models/Characters.fbx
+  artifactKey: Guid(409520c9226982345a49c9803624f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonPirates/Models/Characters.fbx using Guid(409520c9226982345a49c9803624f208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d99a33ed8b73bc0b003ba746c530c55') in 0.323544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.980231 seconds.
+  path: Assets/StoreAssets/Malbers Animations/Animals Packs/01 Forest Pack/Moose/Anims/Moose Fall.FBX
+  artifactKey: Guid(d323adaa1a9b0eb4fad89512397b77f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Malbers Animations/Animals Packs/01 Forest Pack/Moose/Anims/Moose Fall.FBX using Guid(d323adaa1a9b0eb4fad89512397b77f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e11ce5316d65b642cac9e637477a92aa') in 0.019398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.438415 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonWar/Materials/Misc/Polygon_War_RainWater_Mat.mat
+  artifactKey: Guid(47be28ae53899c440a4bdc7de32df96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonWar/Materials/Misc/Polygon_War_RainWater_Mat.mat using Guid(47be28ae53899c440a4bdc7de32df96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4509d718c01c69b9230f22095a78f9bd') in 0.017193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.045245 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonApocalypse/Materials/Misc/PolygonApocalypse_Water.mat
+  artifactKey: Guid(ee711fe130d526443ac4f86b63f9e978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonApocalypse/Materials/Misc/PolygonApocalypse_Water.mat using Guid(ee711fe130d526443ac4f86b63f9e978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee751d14f8c2a2897e5859e2e2a475d') in 0.015834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonMilitary/Materials/Misc/PolygonMilitary_Water_01.mat
+  artifactKey: Guid(15d43f2d04c621042baf24ef206f3a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonMilitary/Materials/Misc/PolygonMilitary_Water_01.mat using Guid(15d43f2d04c621042baf24ef206f3a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1536bb3e4e74fa87b9d448b0b083e3d5') in 0.036963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.217053 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonNature/Materials/Water/PolygonNature_Water_Swamp.mat
+  artifactKey: Guid(374467a8ced5690499204f39d40992d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonNature/Materials/Water/PolygonNature_Water_Swamp.mat using Guid(374467a8ced5690499204f39d40992d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a8ec9bdba45d3bca01dfbacb86d7e0b') in 0.231641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.091388 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonWesternFrontier/Materials/Misc/PolygonWesternFrontier_Water_01.mat
+  artifactKey: Guid(86530075e6d4cbf4cb60a2b53b539357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonWesternFrontier/Materials/Misc/PolygonWesternFrontier_Water_01.mat using Guid(86530075e6d4cbf4cb60a2b53b539357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0003173dafdffa3ebb5a8e904e6c661c') in 0.013806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.298325 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonCity/Materials/FX_Materials/RainWater_Mat.mat
+  artifactKey: Guid(82a8680a0203cd944b2ac9e4712770ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonCity/Materials/FX_Materials/RainWater_Mat.mat using Guid(82a8680a0203cd944b2ac9e4712770ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ba03f612cefceb3d8bbe508814d55b') in 0.012541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037061 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonWestern/Prefabs/Buildings/SM_Bld_Water_Tower_01.prefab
+  artifactKey: Guid(7c1021e011fe0c54abeb05fcb2447989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonWestern/Prefabs/Buildings/SM_Bld_Water_Tower_01.prefab using Guid(7c1021e011fe0c54abeb05fcb2447989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c231c78ee86d8d0440506bb6d96c0c64') in 0.148615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.201564 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonMilitary/Prefabs/Buildings/SM_Bld_WaterTank_01.prefab
+  artifactKey: Guid(c62f091844026a14b90943fb7b3454fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonMilitary/Prefabs/Buildings/SM_Bld_WaterTank_01.prefab using Guid(c62f091844026a14b90943fb7b3454fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d73834e98b7c70a6ee32900ca3d48b2') in 0.036512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.244070 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonMilitary/Models/CollisionConvex/SM_Bld_WaterTank_01_Convex.asset
+  artifactKey: Guid(fb11fb7198318ca489dd721cb2907eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonMilitary/Models/CollisionConvex/SM_Bld_WaterTank_01_Convex.asset using Guid(fb11fb7198318ca489dd721cb2907eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55cb4daf3dbb7c21c3efcf14972c1ae9') in 0.029778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018717 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonConstruction/Models/Collision/SM_Bld_WaterTank_02_Convex.asset
+  artifactKey: Guid(865eaec3b5cf6804e902a10bf6edf67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonConstruction/Models/Collision/SM_Bld_WaterTank_02_Convex.asset using Guid(865eaec3b5cf6804e902a10bf6edf67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a2bf22a7c063d67e03b8ee0970736af') in 0.011776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.222109 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonConstruction/Models/Collision/SM_Bld_WaterTank_03_Convex.asset
+  artifactKey: Guid(46fb750aae70e6d4ca8fe9aef6d3b20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonConstruction/Models/Collision/SM_Bld_WaterTank_03_Convex.asset using Guid(46fb750aae70e6d4ca8fe9aef6d3b20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b28c7874f56942f3116453edbf59882') in 0.012072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030994 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonConstruction/Models/SM_Bld_WaterTower_01.fbx
+  artifactKey: Guid(872698ade62d58c41a314539ae178cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonConstruction/Models/SM_Bld_WaterTower_01.fbx using Guid(872698ade62d58c41a314539ae178cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e5222476e59a53fa23b35dce52cc08') in 0.017029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.243715 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonConstruction/Models/Collision/SM_Bld_WaterTower_01_Convex.asset
+  artifactKey: Guid(dfa7338e65dfbbf49a06ab1f2ab83f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonConstruction/Models/Collision/SM_Bld_WaterTower_01_Convex.asset using Guid(dfa7338e65dfbbf49a06ab1f2ab83f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '036f85c049ffa896963cf94d8b76a3f3') in 0.019796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031672 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Models/SM_Bld_Waterwheel_01.fbx
+  artifactKey: Guid(a9c8e9127f918e046a7274785ae596e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Models/SM_Bld_Waterwheel_01.fbx using Guid(a9c8e9127f918e046a7274785ae596e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4afcd72106abbe55caa7e9fe0221b2e') in 0.029087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.266774 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Models/Convex/SM_Bld_Waterwheel_01_Convex 1.asset
+  artifactKey: Guid(54c84d27f0f5c884da1b7eab8eecb432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Models/Convex/SM_Bld_Waterwheel_01_Convex 1.asset using Guid(54c84d27f0f5c884da1b7eab8eecb432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed238bcdb9f3fc8c6fbe5a21b90282a4') in 0.028363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023512 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Models/SM_Bld_Waterwheel_Attach_01.fbx
+  artifactKey: Guid(2eba44f9b8d35e747b7c543043fc2fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Models/SM_Bld_Waterwheel_Attach_01.fbx using Guid(2eba44f9b8d35e747b7c543043fc2fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2da9ea1f89c3dddb479fbbd98ab611e') in 0.018882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.209182 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Models/SM_Env_Big_Tree_Base_01.fbx
+  artifactKey: Guid(e78d898eb2f8c4044a6ad29bc1a87658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Models/SM_Env_Big_Tree_Base_01.fbx using Guid(e78d898eb2f8c4044a6ad29bc1a87658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d0e2f122541c69678b12cf005e85832') in 0.028737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.251246 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Models/SM_Env_Fountain_01.fbx
+  artifactKey: Guid(a381c424633807a4ab2b2bef03eb43e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Models/SM_Env_Fountain_01.fbx using Guid(a381c424633807a4ab2b2bef03eb43e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f2e5594e70f75e465cf1d4fe0fd2ee') in 0.048358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.246662 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonDungeon/Prefabs/Environments/Floors/SM_Env_Sewer_Water_01.prefab
+  artifactKey: Guid(11584a00ddf0d8645861ef68ab28d55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonDungeon/Prefabs/Environments/Floors/SM_Env_Sewer_Water_01.prefab using Guid(11584a00ddf0d8645861ef68ab28d55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6601bb0cdd477191e6aa098001fe8b4') in 0.013537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037850 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonDungeon/Models/SM_Env_Sewer_Water_Corner_01.fbx
+  artifactKey: Guid(f945f5a5a9a0ddc48abd57b577b09088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonDungeon/Models/SM_Env_Sewer_Water_Corner_01.fbx using Guid(f945f5a5a9a0ddc48abd57b577b09088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a049f596ae16b0a15ba884be474ca3c2') in 0.013341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.763705 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Models/SM_Env_Water_Plane_01.fbx
+  artifactKey: Guid(fc1fc36febdfd0d4dadeedeffb3eca87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Models/SM_Env_Water_Plane_01.fbx using Guid(fc1fc36febdfd0d4dadeedeffb3eca87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4eade9e69095fb9496d4ac10dd8f642') in 0.018330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.054820 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonCity/Models/SM_Env_WaterEdge_Corner_01.fbx
+  artifactKey: Guid(b9fbb6f6668f7ff4cbc39c04c6b71894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonCity/Models/SM_Env_WaterEdge_Corner_01.fbx using Guid(b9fbb6f6668f7ff4cbc39c04c6b71894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7366ad98de350a8ed4cc8dc6abe72874') in 0.020066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004656 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonCity/Prefabs/Environments/SM_Env_WaterEdge_Corner_02.prefab
+  artifactKey: Guid(12164e8f6f9ab2f4589ed7dd89491853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonCity/Prefabs/Environments/SM_Env_WaterEdge_Corner_02.prefab using Guid(12164e8f6f9ab2f4589ed7dd89491853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab470137c22a1513ece230e5533f64e') in 0.016409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.229793 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonCity/Models/SM_Env_WaterEdge_Rock_01.fbx
+  artifactKey: Guid(27bf65190db556643904ee371814b40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonCity/Models/SM_Env_WaterEdge_Rock_01.fbx using Guid(27bf65190db556643904ee371814b40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec3dda1a57dab494efe7e0c3638532b') in 0.013930 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004400 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\MYWHOLEASSDESKTOP\RealmRush\RealmRush\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\MYWHOLEASSDESKTOP\RealmRush\RealmRush\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 5.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.293 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1293ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1102ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (258ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (679ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (6ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (496ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5053 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.8 MB). Loaded Objects now: 6778.
+Memory consumption went from 292.0 MB to 290.2 MB.
+Total: 3.525400 ms (FindLiveObjects: 0.449600 ms CreateObjectMapping: 0.279500 ms MarkObjects: 2.482100 ms  DeleteObjects: 0.313000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
