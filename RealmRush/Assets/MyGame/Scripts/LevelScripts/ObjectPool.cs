@@ -7,7 +7,9 @@ using Random = UnityEngine.Random;
 public class ObjectPool : MonoBehaviour
 {
     [SerializeField] private GameObject EnemyObject;
-    [SerializeField] private int MaxEnemiesAllowed = 15;
+    [SerializeField] private int MaxEnemiesInPool = 15;
+    [SerializeField] private int MaxEnemiesAllowedToSpawn = 15;
+    [SerializeField] private static int CurrentNumberOfEnemiesOnGrid; 
     [SerializeField] private float DelayBetweenEnemies = 2f;
     [SerializeField] private float MaxDelayBetweenEnemies = 5f;
     [SerializeField] private float MinDelayBetweenEnemies = 1f;
@@ -24,7 +26,8 @@ public class ObjectPool : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!CurrentlySpawning && CheckIfPoolHasValidSpawn())
+        
+        if (!CurrentlySpawning && CheckIfPoolHasValidSpawn() && (CurrentNumberOfEnemiesOnGrid < MaxEnemiesAllowedToSpawn))
         {
             CurrentlySpawning = true;
             StartCoroutine(SpawnEnemy(DelayBetweenEnemies));
@@ -62,6 +65,7 @@ public class ObjectPool : MonoBehaviour
             if (!PooledEnemies[i].gameObject.activeInHierarchy)
             {
                 PooledEnemies[i].SetActive(true);
+                CurrentNumberOfEnemiesOnGrid++;
                 break;
             }
         }
@@ -71,11 +75,18 @@ public class ObjectPool : MonoBehaviour
 
     private void PopulateEnemyPool()
     {
-        PooledEnemies = new GameObject[MaxEnemiesAllowed];
+        PooledEnemies = new GameObject[MaxEnemiesInPool];
         for (int i = 0; i < PooledEnemies.Length; i++)
         {
             PooledEnemies[i] = Instantiate(EnemyObject);
             PooledEnemies[i].SetActive(false);
         }
     }
+
+    public static void DecreaseCurrentlyActiveEnemies()
+    {
+        CurrentNumberOfEnemiesOnGrid--;
+    }
+    
+
 }

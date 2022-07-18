@@ -49,7 +49,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _IsPlaceableDefence: 1
-  TurretObject: {fileID: 1822194554919896496, guid: 364ff868d1babc24a902217f96d797b7, type: 3}
+  TowerObject: {fileID: -7371127524475397203, guid: 364ff868d1babc24a902217f96d797b7, type: 3}
 --- !u!65 &8307002848031405047
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -253,7 +253,6 @@ MonoBehaviour:
   CoordinateLabelText: {fileID: 573400976615475721}
   LabelsTextColour: {r: 1, g: 1, b: 1, a: 1}
   LabelsNonValidColour: {r: 1, g: 0, b: 0, a: 1}
-  IsGridVisible: 1
   _waypoint: {fileID: 789878010879588534}
 --- !u!1001 &1212485075332577424
 PrefabInstance:

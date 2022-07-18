@@ -8,8 +8,13 @@ public class EnemyHealth : MonoBehaviour
 {
     [SerializeField] private int maxHitPoints = 3;
     [SerializeField] private int currentHitPoints = 0;
-
+    [SerializeField] private Enemy _enemy;
     [SerializeField] private TargetLocator tg;
+
+    private void Awake()
+    {
+        _enemy = this.gameObject.GetComponent<Enemy>();
+    }
 
     //Reset this objects health when it is enabled or disabled and reenabled.
     void OnEnable()
@@ -43,6 +48,9 @@ public class EnemyHealth : MonoBehaviour
     private void KillEnemy()
     {
         tg.Target = null;
+        ObjectPool.DecreaseCurrentlyActiveEnemies();
+        _enemy.GivePlayerMoneyForDeath();
         gameObject.SetActive(false);
+        
     }
 }

@@ -10,7 +10,7 @@ public class EnemyMover : MonoBehaviour
 
     [SerializeField] private float SecondsBeforeNextWaypoint = 2f;
     [SerializeField] private bool CurrentlyTraversing = false;
-
+    [SerializeField] private Enemy _enemy;
     [SerializeField] private bool ReloopPath = false;
     [SerializeField] private bool DoneOnce = false;
     [SerializeField] private bool doneSpawning = false;
@@ -36,6 +36,11 @@ public class EnemyMover : MonoBehaviour
     //a solution to this by code would be just to check which tile we are at and if it is greater then or less then the
     //previous one and check what the next one after that is to distinquish the predicted desired path, if not we can always change up the order through code.
 
+
+    private void Awake()
+    {
+        _enemy = this.gameObject.GetComponent<Enemy>();
+    }
 
     //When this object is enabled or disabled and renabled this method will be called.
     void OnEnable()
@@ -96,7 +101,8 @@ public class EnemyMover : MonoBehaviour
         } while (ReloopPath);
 
         gameObject.SetActive(false);
-
+        ObjectPool.DecreaseCurrentlyActiveEnemies();
+        _enemy.StealPlayersMoney();
         CurrentlyTraversing = false;
     }
 

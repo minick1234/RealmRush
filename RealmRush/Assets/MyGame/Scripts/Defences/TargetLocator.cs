@@ -10,7 +10,7 @@ public class TargetLocator : MonoBehaviour
 
     [SerializeField] public Transform Target;
 
-    [SerializeField] private float RotationLength = 2f;
+    [SerializeField] private float RotationSpeed = 2f;
     [SerializeField] private float Range = 2.5f;
 
     [SerializeField] private ParticleSystem projectileParticles;
@@ -90,11 +90,9 @@ public class TargetLocator : MonoBehaviour
 
             DistanceWithinRange = Vector3.Distance(this.gameObject.transform.position, Target.position);
             this.transform.rotation = Quaternion.Lerp(this.gameObject.transform.rotation, targetRotation,
-                Time.deltaTime * RotationLength);
+                Time.deltaTime * RotationSpeed);
 
             float dotProductReturned = Quaternion.Dot(targetRotation, this.gameObject.transform.rotation);
-            Debug.Log(dotProductReturned);
-
             //The second part of this is using some new weird pattern thing lol idk never done it before. 
             //It essentially is the same thing as doing dotproductreturned >= 0.9 && dotproductreturned <= 1f -- but i guess its more readable and shorter so i dont call the variable twice or something.
             if ((DistanceWithinRange <= Range) &&
