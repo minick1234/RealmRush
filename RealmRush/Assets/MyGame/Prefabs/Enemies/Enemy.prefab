@@ -65,6 +65,8 @@ MonoBehaviour:
   currentHitPoints: 0
   _enemy: {fileID: 0}
   tg: {fileID: 0}
+  TotalMaxAllowedHitPoints: 15
+  HitPointsToIncreaseByOnDeath: 1
 --- !u!114 &2056855883
 MonoBehaviour:
   m_ObjectHideFlags: 0

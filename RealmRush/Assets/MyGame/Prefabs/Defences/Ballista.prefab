@@ -5248,8 +5248,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Target: {fileID: 0}
-  RotationLength: 0.75
-  Range: 2
+  RotationSpeed: 3.5
+  Range: 3
   projectileParticles: {fileID: 2084050336364006399}
   timeElapsed: 0
 --- !u!114 &-7371127524475397203

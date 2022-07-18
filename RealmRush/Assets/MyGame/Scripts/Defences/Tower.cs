@@ -19,24 +19,16 @@ public class Tower : MonoBehaviour
 
     public bool CreateTower(Tower tower, Vector3 PositionToSpawn)
     {
-        Bank bank = FindObjectOfType<Bank>();
-        if (bank == null)
+        //this way works but the way he does it in the video is just checks if the amount of the balance is greater then the cost
+        //that basically is equivalent to this as it checks we have enough to spend before we spend, but this means we can spend to 0.
+        if (Bank.GetCurrentBalance() - CostToPlace >= 0)
         {
-            return false;
+            Bank.DecreaseCurrentBalance(CostToPlace);
+            Instantiate(tower.gameObject, new Vector3(PositionToSpawn.x,
+                PositionToSpawn.y, PositionToSpawn.z), Quaternion.identity);
+            return true;
         }
-        else
-        {
-            //this way works but the way he does it in the video is just checks if the amount of the balance is greater then the cost
-            //that basically is equivalent to this as it checks we have enough to spend before we spend, but this means we can spend to 0.
-            if (bank.GetCurrentBalance() - CostToPlace >= 0)
-            {
-                bank.DecreaseCurrentBalance(CostToPlace);
-                Instantiate(tower.gameObject, new Vector3(PositionToSpawn.x,
-                    PositionToSpawn.y, PositionToSpawn.z), Quaternion.identity);
-                return true;
-            }
 
-            return false;
-        }
+        return false;
     }
 }

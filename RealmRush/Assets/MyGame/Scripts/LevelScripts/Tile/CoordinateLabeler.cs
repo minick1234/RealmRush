@@ -7,6 +7,7 @@ using UnityEngine.UIElements;
 
 //This is something that needs to be used with cautions as this script is running now regardless in play mode and editor mode. 
 [ExecuteAlways]
+[RequireComponent(typeof(TextMeshPro))]
 public class CoordinateLabeler : MonoBehaviour
 {
     [SerializeField] private TextMeshPro CoordinateLabelText;
@@ -22,7 +23,7 @@ public class CoordinateLabeler : MonoBehaviour
         CoordinateLabelText = GetComponent<TextMeshPro>();
 
         _waypoint = GetComponentInParent<Waypoint>();
-        CoordinateLabelText.enabled = false;
+        //CoordinateLabelText.enabled = false;
 
         //run the coordinates to be set in game once, but not update.
         DisplayCurrentCoordinates();

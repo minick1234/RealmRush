@@ -4,12 +4,15 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
+[RequireComponent(typeof(Enemy))]
 public class EnemyHealth : MonoBehaviour
 {
     [SerializeField] private int maxHitPoints = 3;
     [SerializeField] private int currentHitPoints = 0;
     [SerializeField] private Enemy _enemy;
     [SerializeField] private TargetLocator tg;
+    [SerializeField] private int TotalMaxAllowedHitPoints = 10;
+    [SerializeField] private int HitPointsToIncreaseByOnDeath = 1;
 
     private void Awake()
     {
@@ -19,7 +22,15 @@ public class EnemyHealth : MonoBehaviour
     //Reset this objects health when it is enabled or disabled and reenabled.
     void OnEnable()
     {
-        currentHitPoints = maxHitPoints;
+        if (!((maxHitPoints + HitPointsToIncreaseByOnDeath) > TotalMaxAllowedHitPoints))
+        {
+            maxHitPoints += HitPointsToIncreaseByOnDeath;
+            currentHitPoints = maxHitPoints;
+        }
+        else
+        {
+            currentHitPoints = maxHitPoints;
+        }
     }
 
     // Update is called once per frame
@@ -51,6 +62,5 @@ public class EnemyHealth : MonoBehaviour
         ObjectPool.DecreaseCurrentlyActiveEnemies();
         _enemy.GivePlayerMoneyForDeath();
         gameObject.SetActive(false);
-        
     }
 }

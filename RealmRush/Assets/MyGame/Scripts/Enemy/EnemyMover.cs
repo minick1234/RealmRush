@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Object = System.Object;
 
+[RequireComponent(typeof(Enemy))]
 public class EnemyMover : MonoBehaviour
 {
     [SerializeField] private List<Waypoint> _waypoints = new List<Waypoint>();
@@ -100,17 +101,24 @@ public class EnemyMover : MonoBehaviour
             }
         } while (ReloopPath);
 
+        FinishMyPath();
+    }
+
+    private void FinishMyPath()
+    {
         gameObject.SetActive(false);
         ObjectPool.DecreaseCurrentlyActiveEnemies();
         _enemy.StealPlayersMoney();
         CurrentlyTraversing = false;
     }
 
-
     public void ReturnToStart()
     {
-        transform.position = _waypoints[0].transform.position;
-        _waypoints.Remove(_waypoints[0]);
+        if (_waypoints[0] != null && _waypoints.Count > 0)
+        {
+            transform.position = _waypoints[0].transform.position;
+            _waypoints.Remove(_waypoints[0]);
+        }
     }
 
     //this goes over every single item inside of the path gameobject and assigns it to our ai's path.
