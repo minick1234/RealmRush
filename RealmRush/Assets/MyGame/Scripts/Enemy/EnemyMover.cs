@@ -40,6 +40,8 @@ public class EnemyMover : MonoBehaviour
 
     private void Awake()
     {
+        FindPath();
+        ReturnToStart();
         _enemy = this.gameObject.GetComponent<Enemy>();
     }
 

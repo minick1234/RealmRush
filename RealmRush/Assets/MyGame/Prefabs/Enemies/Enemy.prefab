@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -248561996976405514}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Path
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65,7 +65,7 @@ MonoBehaviour:
   currentHitPoints: 0
   _enemy: {fileID: 0}
   tg: {fileID: 0}
-  TotalMaxAllowedHitPoints: 15
+  TotalMaxAllowedHitPoints: 25
   HitPointsToIncreaseByOnDeath: 1
 --- !u!114 &2056855883
 MonoBehaviour:
@@ -101,7 +101,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CashOnDeath: 25
   EndOfPathGoldAmount: 25
-  _bank: {fileID: 0}
 --- !u!1 &7264358542818794819
 GameObject:
   m_ObjectHideFlags: 0
