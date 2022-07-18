@@ -41,9 +41,9 @@ public class ObjectPool : MonoBehaviour
     private bool CheckIfPoolHasValidSpawn()
     {
         bool nonSpawnedFound = false;
-        foreach (var enemy in PooledEnemies)
+        for (int i = PooledEnemies.Length - 1; i >= 0; i--)
         {
-            if (!enemy.activeInHierarchy)
+            if (!PooledEnemies[i].gameObject.activeInHierarchy)
             {
                 nonSpawnedFound = true;
                 break;
@@ -57,11 +57,11 @@ public class ObjectPool : MonoBehaviour
     {
         yield return new WaitForSeconds(delayBetweenSpawns);
 
-        foreach (var enemy in PooledEnemies)
+        for (int i = PooledEnemies.Length - 1; i >= 0; i--)
         {
-            if (!enemy.activeInHierarchy)
+            if (!PooledEnemies[i].gameObject.activeInHierarchy)
             {
-                enemy.SetActive(true);
+                PooledEnemies[i].SetActive(true);
                 break;
             }
         }

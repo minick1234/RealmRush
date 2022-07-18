@@ -8,9 +8,14 @@ public class TargetLocator : MonoBehaviour
     //Eventually this will have to be a dynamic system to grab the enemy closest to me but for right now i only have one enemy so i can easily make it just looks at the player.
 
 
-    [SerializeField] private Transform Target;
+    [SerializeField] public Transform Target;
 
     [SerializeField] private float RotationLength = 2f;
+    [SerializeField] private float Range = 2.5f;
+
+    [SerializeField] private ParticleSystem projectileParticles;
+
+    [SerializeField] private float timeElapsed = 0f;
 
     // Start is called before the first frame update
     void Start()
@@ -21,16 +26,13 @@ public class TargetLocator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //i do this just incase there is no enemies on the screen whcih may be possible for game over screen but for now this should never reach here.
-        try
+        FindClosestEnemy();
+        AimWeapon();
+
+        if (Target == null)
         {
-            FindClosestEnemy();
-            AimWeapon();
-        }
-        catch (NullReferenceException e)
-        {
-            //if we catch the nullreferenceexception we can just print this and thats it.
-            Console.WriteLine("danng no enemies eh. thats weird.");
+            var projectileParticlesEmission = projectileParticles.emission;
+            projectileParticlesEmission.enabled = false;
         }
     }
 
@@ -46,32 +48,70 @@ public class TargetLocator : MonoBehaviour
 
         //Set the original distance to be the longest possible. so its mathf.infinity because the first enemy we wanna find is this far away.
         float maxDistanceTillNextEnemy = Mathf.Infinity;
-
         foreach (var enemy in enemies)
         {
             float targetDistance = Vector3.Distance(this.gameObject.transform.position, enemy.transform.position);
 
-            if (targetDistance < maxDistanceTillNextEnemy)
+            if ((targetDistance < maxDistanceTillNextEnemy))
             {
                 closestTarget = enemy.transform;
                 maxDistanceTillNextEnemy = targetDistance;
             }
         }
 
-        Target = closestTarget;
+        if (closestTarget != null)
+        {
+            float distanceAgain =
+                Vector3.Distance(this.gameObject.transform.position, closestTarget.transform.position);
+            if (distanceAgain <= Range)
+            {
+                timeElapsed = 0f;
+                Target = closestTarget;
+            }
+            else
+            {
+                Target = null;
+                timeElapsed = 0f;
+            }
+        }
     }
 
     private void AimWeapon()
     {
         if (Target != null)
         {
-            float currentRotationPercent = 0f;
             Vector3 directionToOtherObject = Target.position - this.gameObject.transform.position;
-            Debug.DrawRay(this.transform.position, directionToOtherObject, Color.blue);
+            Debug.DrawRay(new Vector3(this.transform.position.x, 2f, this.transform.position.z),
+                new Vector3(directionToOtherObject.x, directionToOtherObject.y, directionToOtherObject.z),
+                Color.red);
+
+            float DistanceWithinRange = 0;
             Quaternion targetRotation = Quaternion.LookRotation(directionToOtherObject);
-            currentRotationPercent += Time.deltaTime;
-            this.transform.rotation = Quaternion.Slerp(this.gameObject.transform.rotation, targetRotation,
-                Time.deltaTime / RotationLength);
+
+            DistanceWithinRange = Vector3.Distance(this.gameObject.transform.position, Target.position);
+            this.transform.rotation = Quaternion.Lerp(this.gameObject.transform.rotation, targetRotation,
+                Time.deltaTime * RotationLength);
+
+            float dotProductReturned = Quaternion.Dot(targetRotation, this.gameObject.transform.rotation);
+            Debug.Log(dotProductReturned);
+
+            //The second part of this is using some new weird pattern thing lol idk never done it before. 
+            //It essentially is the same thing as doing dotproductreturned >= 0.9 && dotproductreturned <= 1f -- but i guess its more readable and shorter so i dont call the variable twice or something.
+            if ((DistanceWithinRange <= Range) &&
+                ((dotProductReturned is >= 0.9f and <= 1f) || dotProductReturned is >= -1f and <= -0.9f))
+            {
+                Attack(true);
+            }
+            else
+            {
+                Attack(false);
+            }
         }
+    }
+
+    void Attack(bool isActive)
+    {
+        var projectileParticlesEmission = projectileParticles.emission;
+        projectileParticlesEmission.enabled = isActive;
     }
 }

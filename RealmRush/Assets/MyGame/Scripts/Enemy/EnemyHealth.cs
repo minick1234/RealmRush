@@ -9,6 +9,8 @@ public class EnemyHealth : MonoBehaviour
     [SerializeField] private int maxHitPoints = 3;
     [SerializeField] private int currentHitPoints = 0;
 
+    [SerializeField] private TargetLocator tg;
+
     //Reset this objects health when it is enabled or disabled and reenabled.
     void OnEnable()
     {
@@ -28,6 +30,8 @@ public class EnemyHealth : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Turret"))
         {
+            tg = other.gameObject.transform.parent.GetComponent<TargetLocator>();
+            Debug.Log(tg);
             if (currentHitPoints > 0)
             {
                 //reduce the current hitpoints that the enemy has left.
@@ -38,6 +42,7 @@ public class EnemyHealth : MonoBehaviour
 
     private void KillEnemy()
     {
+        tg.Target = null;
         gameObject.SetActive(false);
     }
 }

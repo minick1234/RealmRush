@@ -5247,7 +5247,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Target: {fileID: 0}
-  RotationLength: 0.75
+  RotationLength: 1
+  Range: 2
+  projectileParticles: {fileID: 2084050336364006399}
 --- !u!1 &1822692779630398108
 GameObject:
   m_ObjectHideFlags: 0

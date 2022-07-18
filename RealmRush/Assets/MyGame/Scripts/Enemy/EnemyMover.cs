@@ -41,6 +41,7 @@ public class EnemyMover : MonoBehaviour
     void OnEnable()
     {
         DoneOnce = false;
+        CurrentlyTraversing = false;
         FindPath();
         ReturnToStart();
     }
