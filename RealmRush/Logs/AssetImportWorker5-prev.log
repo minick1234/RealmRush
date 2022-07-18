@@ -1,0 +1,304 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 32681 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\UnityEditors\2021.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/MYWHOLEASSDESKTOP/RealmRush/RealmRush
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+50899
+Successfully changed project path to: C:/MYWHOLEASSDESKTOP/RealmRush/RealmRush
+C:/MYWHOLEASSDESKTOP/RealmRush/RealmRush
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 488.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.6f1 (7da38d85baf6)
+[Subsystems] Discovering subsystems at path C:/UnityEditors/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/MYWHOLEASSDESKTOP/RealmRush/RealmRush/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 Ti (ID=0x1e07)
+    Vendor:   NVIDIA
+    VRAM:     11049 MB
+    Driver:   31.0.15.1659
+Initialize mono
+Mono path[0] = 'C:/UnityEditors/2021.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/UnityEditors/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/UnityEditors/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/UnityEditors/2021.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/UnityEditors/2021.3.6f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/UnityEditors/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/UnityEditors/2021.3.6f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/UnityEditors/2021.3.6f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: C:/UnityEditors/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/UnityEditors/2021.3.6f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:/UnityEditors/2021.3.6f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.005143 seconds.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 467.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.981 seconds
+Domain Reload Profiling:
+	ReloadAssembly (982ms)
+		BeginReloadAssembly (51ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (843ms)
+			LoadAssemblies (51ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (89ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (675ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (60ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (467ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (99ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005007 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\MYWHOLEASSDESKTOP\RealmRush\RealmRush\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\MYWHOLEASSDESKTOP\RealmRush\RealmRush\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 460.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.316 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3316ms)
+		BeginReloadAssembly (194ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (115ms)
+		EndReloadAssembly (3030ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (251ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (2607ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (460ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (1193ms)
+				ProcessInitializeOnLoadMethodAttributes (825ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 10.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5164 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 58 unused Assets / (1.8 MB). Loaded Objects now: 5607.
+Memory consumption went from 270.0 MB to 268.2 MB.
+Total: 5.107200 ms (FindLiveObjects: 0.476600 ms CreateObjectMapping: 0.380300 ms MarkObjects: 3.804400 ms  DeleteObjects: 0.444600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  colorSpace: 1 -> 0
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/active-color-space: 03000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 354042.364931 seconds.
+  path: Assets/MyGame/Prefabs/Tile/Tile_RoadStraight.prefab
+  artifactKey: Guid(4f5f3fe9f687f4349b175dff9f4cdfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Tile/Tile_RoadStraight.prefab using Guid(4f5f3fe9f687f4349b175dff9f4cdfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743e9be97201ef3dcab80d2c92d1d626') in 0.161800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 110.369916 seconds.
+  path: Assets/MyGame/Prefabs/Tile/Tile_RoadStraight_Horizontal.prefab
+  artifactKey: Guid(4f5f3fe9f687f4349b175dff9f4cdfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Tile/Tile_RoadStraight_Horizontal.prefab using Guid(4f5f3fe9f687f4349b175dff9f4cdfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c390ccf6e68b0dfd9d81cb03458d9722') in 0.052294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 100.034058 seconds.
+  path: Assets/MyGame/Prefabs/Tile/Tile_RoadCorner_2.prefab
+  artifactKey: Guid(6faca9d1831cbce42ad73c2f041c0767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Tile/Tile_RoadCorner_2.prefab using Guid(6faca9d1831cbce42ad73c2f041c0767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bd4472e86b89c0274e4561ace1138bd') in 0.051827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 89.366539 seconds.
+  path: Assets/MyGame/Prefabs/Tile/Tile_RoadCorner_2.prefab
+  artifactKey: Guid(6faca9d1831cbce42ad73c2f041c0767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Tile/Tile_RoadCorner_2.prefab using Guid(6faca9d1831cbce42ad73c2f041c0767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b92e3667269e81a842f1902ced463c') in 0.046282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 60.627152 seconds.
+  path: Assets/MyGame/Prefabs/Tile/Tile_RoadCorner_3.prefab
+  artifactKey: Guid(c1247a8c35b3320428c4e78720626103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Tile/Tile_RoadCorner_3.prefab using Guid(c1247a8c35b3320428c4e78720626103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3711a4b1287d12334afbefc89a208db5') in 0.498273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 164.622291 seconds.
+  path: Assets/MyGame/Prefabs/Tile/Tile_RoadCorner_1.prefab
+  artifactKey: Guid(ed2069c876af62a459072582365bc7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Tile/Tile_RoadCorner_1.prefab using Guid(ed2069c876af62a459072582365bc7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7db0b959743de6a3c659c4196b74662') in 0.052288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.169871 seconds.
+  path: Assets/MyGame/Prefabs/Tile/Tile_RoadCorner_1.prefab
+  artifactKey: Guid(ed2069c876af62a459072582365bc7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Tile/Tile_RoadCorner_1.prefab using Guid(ed2069c876af62a459072582365bc7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc3e43d675a54607224c069687da300') in 0.049469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MyGame/Prefabs/Tile/Tile_RoadCorner_3.prefab
+  artifactKey: Guid(c1247a8c35b3320428c4e78720626103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Tile/Tile_RoadCorner_3.prefab using Guid(c1247a8c35b3320428c4e78720626103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b27582fdfc026f9fc62e2fbe95d178') in 0.053726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MyGame/Prefabs/Tile/Tile_RoadStraight_Horizontal.prefab
+  artifactKey: Guid(4f5f3fe9f687f4349b175dff9f4cdfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Tile/Tile_RoadStraight_Horizontal.prefab using Guid(4f5f3fe9f687f4349b175dff9f4cdfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c618251ef2361d20e8a873f54571c0') in 0.051548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.477749 seconds.
+  path: Assets/MyGame/Prefabs/Tile/Tile_RoadCorner_2.prefab
+  artifactKey: Guid(6faca9d1831cbce42ad73c2f041c0767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Tile/Tile_RoadCorner_2.prefab using Guid(6faca9d1831cbce42ad73c2f041c0767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d38b1239dd4a586fb7ebb24a6a169cc') in 0.051733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MyGame/Prefabs/Tile/Tile_RoadCorner_3.prefab
+  artifactKey: Guid(c1247a8c35b3320428c4e78720626103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Tile/Tile_RoadCorner_3.prefab using Guid(c1247a8c35b3320428c4e78720626103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d7dc5b861e5e0ee56feab667ceca823') in 0.054814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/MyGame/Prefabs/Tile/Tile_RoadStraight_Horizontal.prefab
+  artifactKey: Guid(4f5f3fe9f687f4349b175dff9f4cdfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Tile/Tile_RoadStraight_Horizontal.prefab using Guid(4f5f3fe9f687f4349b175dff9f4cdfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831c68b0e24e6ac2596bc3fadacaee24') in 0.045178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.453311 seconds.
+  path: Assets/MyGame/Prefabs/Tile/Tile_RoadCorner_2.prefab
+  artifactKey: Guid(6faca9d1831cbce42ad73c2f041c0767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Tile/Tile_RoadCorner_2.prefab using Guid(6faca9d1831cbce42ad73c2f041c0767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '703687ade69795bbded5a04e7a172549') in 0.057213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MyGame/Prefabs/Tile/Tile_RoadStraight_Horizontal.prefab
+  artifactKey: Guid(4f5f3fe9f687f4349b175dff9f4cdfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Tile/Tile_RoadStraight_Horizontal.prefab using Guid(4f5f3fe9f687f4349b175dff9f4cdfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc4055702694dc7c5cf9daf0c4da6f8') in 0.054338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.092162 seconds.
+  path: Assets/MyGame/Prefabs/Tile/Tile_RoadCorner_2.prefab
+  artifactKey: Guid(6faca9d1831cbce42ad73c2f041c0767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Tile/Tile_RoadCorner_2.prefab using Guid(6faca9d1831cbce42ad73c2f041c0767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e7f4ff347c706024567ef6e7862a1e6') in 0.055012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/MyGame/Prefabs/Tile/Tile_RoadStraight_Horizontal.prefab
+  artifactKey: Guid(4f5f3fe9f687f4349b175dff9f4cdfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Tile/Tile_RoadStraight_Horizontal.prefab using Guid(4f5f3fe9f687f4349b175dff9f4cdfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61189146d15172d3baea52f103033943') in 0.057641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.149143 seconds.
+  path: Assets/MyGame/Prefabs/Tile/Tile_RoadCorner_2.prefab
+  artifactKey: Guid(6faca9d1831cbce42ad73c2f041c0767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Tile/Tile_RoadCorner_2.prefab using Guid(6faca9d1831cbce42ad73c2f041c0767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a72526f817732828f91fc8027682a3') in 0.063892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MyGame/Prefabs/Tile/Tile_RoadStraight_Horizontal.prefab
+  artifactKey: Guid(4f5f3fe9f687f4349b175dff9f4cdfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Tile/Tile_RoadStraight_Horizontal.prefab using Guid(4f5f3fe9f687f4349b175dff9f4cdfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5bc52fef14f3345e2b34211feb815a5') in 0.057253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.728933 seconds.
+  path: Assets/MyGame/Prefabs/Tile/Tile_RoadCorner_2.prefab
+  artifactKey: Guid(6faca9d1831cbce42ad73c2f041c0767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Tile/Tile_RoadCorner_2.prefab using Guid(6faca9d1831cbce42ad73c2f041c0767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ba47cebc1de0a2a21ba9e94582ce2d') in 0.060645 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

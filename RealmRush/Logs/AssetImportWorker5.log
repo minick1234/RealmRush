@@ -1,0 +1,669 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 32681 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\UnityEditors\2021.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/MYWHOLEASSDESKTOP/RealmRush/RealmRush
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+58047
+Successfully changed project path to: C:/MYWHOLEASSDESKTOP/RealmRush/RealmRush
+C:/MYWHOLEASSDESKTOP/RealmRush/RealmRush
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 425.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.6f1 (7da38d85baf6)
+[Subsystems] Discovering subsystems at path C:/UnityEditors/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/MYWHOLEASSDESKTOP/RealmRush/RealmRush/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 Ti (ID=0x1e07)
+    Vendor:   NVIDIA
+    VRAM:     11049 MB
+    Driver:   31.0.15.1659
+Initialize mono
+Mono path[0] = 'C:/UnityEditors/2021.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/UnityEditors/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/UnityEditors/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/UnityEditors/2021.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/UnityEditors/2021.3.6f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/UnityEditors/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/UnityEditors/2021.3.6f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/UnityEditors/2021.3.6f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: C:/UnityEditors/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/UnityEditors/2021.3.6f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:/UnityEditors/2021.3.6f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.004714 seconds.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 447.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.914 seconds
+Domain Reload Profiling:
+	ReloadAssembly (914ms)
+		BeginReloadAssembly (49ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (779ms)
+			LoadAssemblies (49ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (88ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (621ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (55ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (448ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (83ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004125 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\MYWHOLEASSDESKTOP\RealmRush\RealmRush\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\MYWHOLEASSDESKTOP\RealmRush\RealmRush\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 448.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.936 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1937ms)
+		BeginReloadAssembly (194ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (127ms)
+		EndReloadAssembly (1653ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (241ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (1241ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (449ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (597ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 5.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5164 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 58 unused Assets / (1.8 MB). Loaded Objects now: 5607.
+Memory consumption went from 267.1 MB to 265.3 MB.
+Total: 3.005400 ms (FindLiveObjects: 0.340800 ms CreateObjectMapping: 0.315300 ms MarkObjects: 2.077500 ms  DeleteObjects: 0.271300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 355851.787712 seconds.
+  path: Assets/MyGame/Prefabs/Tile/Tile_RoadTJunction_1.prefab
+  artifactKey: Guid(1c271d4e01ed46d48b3bec6ecef81279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Tile/Tile_RoadTJunction_1.prefab using Guid(1c271d4e01ed46d48b3bec6ecef81279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ace6ac329e3a24cdc54532f6e9ea88') in 0.164027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.526033 seconds.
+  path: Assets/MyGame/Prefabs/Tile/Tile_RoadTJunction_1.prefab
+  artifactKey: Guid(1c271d4e01ed46d48b3bec6ecef81279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Tile/Tile_RoadTJunction_1.prefab using Guid(1c271d4e01ed46d48b3bec6ecef81279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ec49b6767071deee2cf34994ce0876') in 0.061154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 263.871543 seconds.
+  path: Assets/MyGame/Prefabs/Tile/Tile_RoadTJunction_1.prefab
+  artifactKey: Guid(1c271d4e01ed46d48b3bec6ecef81279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Tile/Tile_RoadTJunction_1.prefab using Guid(1c271d4e01ed46d48b3bec6ecef81279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce332f2edaacc7bc8540d431478cfdf') in 0.051258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MyGame/Prefabs/Tile/Tile_RoadTJunction_2.prefab
+  artifactKey: Guid(a9c47756ef2971a42a50ca70547a040e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Tile/Tile_RoadTJunction_2.prefab using Guid(a9c47756ef2971a42a50ca70547a040e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '063f4a2945175ca015324f010bdb292f') in 0.047796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.709793 seconds.
+  path: Assets/MyGame/Prefabs/Tile/Tile_RoadTJunction_1.prefab
+  artifactKey: Guid(1c271d4e01ed46d48b3bec6ecef81279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Tile/Tile_RoadTJunction_1.prefab using Guid(1c271d4e01ed46d48b3bec6ecef81279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90fe6200280547d5e8ffe59e1b81807c') in 0.056079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MyGame/Prefabs/Tile/Tile_RoadTJunction_2.prefab
+  artifactKey: Guid(a9c47756ef2971a42a50ca70547a040e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Tile/Tile_RoadTJunction_2.prefab using Guid(a9c47756ef2971a42a50ca70547a040e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e62dc4bd9e6b404b63411bf75d0e794') in 0.046976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.062371 seconds.
+  path: Assets/MyGame/Prefabs/Tile/Tile_RoadTJunction_1.prefab
+  artifactKey: Guid(1c271d4e01ed46d48b3bec6ecef81279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Tile/Tile_RoadTJunction_1.prefab using Guid(1c271d4e01ed46d48b3bec6ecef81279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e287e3a64125f868a4cc40dc1f6eda8a') in 0.051517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MyGame/Prefabs/Tile/Tile_RoadTJunction_2.prefab
+  artifactKey: Guid(a9c47756ef2971a42a50ca70547a040e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Tile/Tile_RoadTJunction_2.prefab using Guid(a9c47756ef2971a42a50ca70547a040e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9708e158f02e82b8cd44308bc00294') in 0.046905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.024112 seconds.
+  path: Assets/MyGame/Prefabs/Tile/Tile_RoadTJunction_1.prefab
+  artifactKey: Guid(1c271d4e01ed46d48b3bec6ecef81279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Tile/Tile_RoadTJunction_1.prefab using Guid(1c271d4e01ed46d48b3bec6ecef81279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '240ad523795bd457434885cb7fcaffea') in 0.051529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/MyGame/Prefabs/Tile/Tile_RoadTJunction_2.prefab
+  artifactKey: Guid(a9c47756ef2971a42a50ca70547a040e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Tile/Tile_RoadTJunction_2.prefab using Guid(a9c47756ef2971a42a50ca70547a040e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b52f0b086ccc1ff4114526e9be0505') in 0.049484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.917719 seconds.
+  path: Assets/MyGame/Prefabs/Tile/Tile_RoadTJunction_1.prefab
+  artifactKey: Guid(1c271d4e01ed46d48b3bec6ecef81279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Tile/Tile_RoadTJunction_1.prefab using Guid(1c271d4e01ed46d48b3bec6ecef81279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b35b87ad5395333aa652c4333e376cfb') in 0.050038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MyGame/Prefabs/Tile/Tile_RoadTJunction_2.prefab
+  artifactKey: Guid(a9c47756ef2971a42a50ca70547a040e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Tile/Tile_RoadTJunction_2.prefab using Guid(a9c47756ef2971a42a50ca70547a040e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a33a902d9376e116146b260055fdf96') in 0.046941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.315976 seconds.
+  path: Assets/MyGame/Prefabs/Tile/Tile_RoadTJunction_1.prefab
+  artifactKey: Guid(1c271d4e01ed46d48b3bec6ecef81279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Tile/Tile_RoadTJunction_1.prefab using Guid(1c271d4e01ed46d48b3bec6ecef81279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af21b59f105ff62c849c3ff9391664a') in 0.052009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MyGame/Prefabs/Tile/Tile_RoadTJunction_2.prefab
+  artifactKey: Guid(a9c47756ef2971a42a50ca70547a040e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Tile/Tile_RoadTJunction_2.prefab using Guid(a9c47756ef2971a42a50ca70547a040e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428316efee5480dd409691a5a7ce8a87') in 0.048795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.814633 seconds.
+  path: Assets/MyGame/Prefabs/Tile/Tile_RoadTJunction_1.prefab
+  artifactKey: Guid(1c271d4e01ed46d48b3bec6ecef81279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Tile/Tile_RoadTJunction_1.prefab using Guid(1c271d4e01ed46d48b3bec6ecef81279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a0379f9b217b548c61e1c1a5b92dea') in 0.051326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MyGame/Prefabs/Tile/Tile_RoadTJunction_3.prefab
+  artifactKey: Guid(83d7b6cfb6d4d8f4f9fbb5fa5521118a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Tile/Tile_RoadTJunction_3.prefab using Guid(83d7b6cfb6d4d8f4f9fbb5fa5521118a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67a5875260ea2fc3a2ea804a54201e7') in 0.046568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.521923 seconds.
+  path: Assets/MyGame/Prefabs/Tile/Tile_RoadTJunction_1.prefab
+  artifactKey: Guid(1c271d4e01ed46d48b3bec6ecef81279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Tile/Tile_RoadTJunction_1.prefab using Guid(1c271d4e01ed46d48b3bec6ecef81279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ccbea76cddf36ad21d5704de1cb0547') in 0.052469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/MyGame/Prefabs/Tile/Tile_RoadTJunction_2.prefab
+  artifactKey: Guid(a9c47756ef2971a42a50ca70547a040e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Tile/Tile_RoadTJunction_2.prefab using Guid(a9c47756ef2971a42a50ca70547a040e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911a937690743556becc722c65945c4f') in 0.047139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.688599 seconds.
+  path: Assets/MyGame/Prefabs/Tile/Tile_RoadTJunction_1.prefab
+  artifactKey: Guid(1c271d4e01ed46d48b3bec6ecef81279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Tile/Tile_RoadTJunction_1.prefab using Guid(1c271d4e01ed46d48b3bec6ecef81279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e77087af7e5bab5d6dca6ffd6d35c7') in 0.046777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MyGame/Prefabs/Tile/Tile_RoadTJunction_2.prefab
+  artifactKey: Guid(a9c47756ef2971a42a50ca70547a040e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyGame/Prefabs/Tile/Tile_RoadTJunction_2.prefab using Guid(a9c47756ef2971a42a50ca70547a040e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74efedcf58ba78ca5c2f5885c4119b82') in 0.044263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 839.086592 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Prop_Arrow_01_Headless.prefab
+  artifactKey: Guid(00477c131c09cce4d87f02fd4320d792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Prop_Arrow_01_Headless.prefab using Guid(00477c131c09cce4d87f02fd4320d792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f8f5ced4623c01425159d6f9f040d0') in 0.040287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Prop_Arrow_02_Optimized.prefab
+  artifactKey: Guid(8bf7b91d22b436a4592b580f3ba12dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Prop_Arrow_02_Optimized.prefab using Guid(8bf7b91d22b436a4592b580f3ba12dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54aebc15981329e09151e57faf04e120') in 0.041238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Axe_04.prefab
+  artifactKey: Guid(dc3395c6d7e56cb499938eabdc1d6a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Axe_04.prefab using Guid(dc3395c6d7e56cb499938eabdc1d6a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca09f37bbc1a182a3489096f8ef5b72') in 0.035821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Prop_Bow_02.prefab
+  artifactKey: Guid(540a4181c60e5d24eb2e496a2cd4916c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Prop_Bow_02.prefab using Guid(540a4181c60e5d24eb2e496a2cd4916c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a7cc043074a88241e383a67e7b81e85') in 0.040898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Prop_Bow_01.prefab
+  artifactKey: Guid(999de633b0a5f0848b10c37d407a9d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Prop_Bow_01.prefab using Guid(999de633b0a5f0848b10c37d407a9d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3daf6c339b2cdf5f54068c3dda980f41') in 0.037211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Axe_03.prefab
+  artifactKey: Guid(d2ef24c02f02e4d49aa3ed4e55815247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Axe_03.prefab using Guid(d2ef24c02f02e4d49aa3ed4e55815247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c970fe80f6a8ebba7c9f805afd304fd') in 0.045787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Prop_Quiver_01.prefab
+  artifactKey: Guid(b1b5b89fef00f174d8447662ff003a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Prop_Quiver_01.prefab using Guid(b1b5b89fef00f174d8447662ff003a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e1124fd90efa3e30950989eb8b0028') in 0.037660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Prop_Arrow_02.prefab
+  artifactKey: Guid(4747eb87cb4d01b438c8bb2330fc8965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Prop_Arrow_02.prefab using Guid(4747eb87cb4d01b438c8bb2330fc8965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d5c019e57e7b6d7a513fc31e8434b7') in 0.035264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.310364 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Axe_06.prefab
+  artifactKey: Guid(cb000150d3243234ca9dc946436310c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Axe_06.prefab using Guid(cb000150d3243234ca9dc946436310c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acdb5dba3ec4bb9259d448a313da6877') in 0.038330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Axe_07.prefab
+  artifactKey: Guid(0666976312b49f643b0ecdb01f1f2fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Axe_07.prefab using Guid(0666976312b49f643b0ecdb01f1f2fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8493db8c30a8fbef9a40ebfb182a9dd') in 0.039212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Axe_08.prefab
+  artifactKey: Guid(af1f44d9cb6f51d4aa779310dcdbc8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Axe_08.prefab using Guid(af1f44d9cb6f51d4aa779310dcdbc8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44177bf9f2469d5f0e2bd3decac169c2') in 0.039338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_CorkScrew_01.prefab
+  artifactKey: Guid(1d4ad8c637079624cbcce5de4e3a81db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_CorkScrew_01.prefab using Guid(1d4ad8c637079624cbcce5de4e3a81db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c67e842f92815d7d6970623d2c455aac') in 0.044708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.198982 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Dagger_02.prefab
+  artifactKey: Guid(be4857adbcd32de43aae6cd49a1a3245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Dagger_02.prefab using Guid(be4857adbcd32de43aae6cd49a1a3245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830af7fc9fee608b0e9522a53981d54d') in 0.035857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Dagger_04.prefab
+  artifactKey: Guid(5e1b3615fae79b348a7574ab7b36ee69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Dagger_04.prefab using Guid(5e1b3615fae79b348a7574ab7b36ee69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c6b736ca92156bcb24f7c1ac0263d8') in 0.041808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Elephant_Gun_01.prefab
+  artifactKey: Guid(19884371c21adc14eadce0623e561bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Elephant_Gun_01.prefab using Guid(19884371c21adc14eadce0623e561bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c461c07e6a49beb4ea1f1b81e23341') in 0.038992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Hammer_02.prefab
+  artifactKey: Guid(978e013e086901447ad224486298cff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Hammer_02.prefab using Guid(978e013e086901447ad224486298cff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d44c9225eafb974117b803ad8693bd') in 0.039702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Hammer_01.prefab
+  artifactKey: Guid(18f2ba0d1444a324d8fb6bb013a6a7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Hammer_01.prefab using Guid(18f2ba0d1444a324d8fb6bb013a6a7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b27c49f96586257d9283cd51d7fed524') in 0.041589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Dagger_05.prefab
+  artifactKey: Guid(962713b2326338e4396dfc9634c72b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Dagger_05.prefab using Guid(962713b2326338e4396dfc9634c72b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f498a03650f5277ca76877f6fdb71085') in 0.038230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.083775 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Hammer_05.prefab
+  artifactKey: Guid(efe9aff527910ec48866a9de4bd0ef34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Hammer_05.prefab using Guid(efe9aff527910ec48866a9de4bd0ef34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1694f8c5e9dfb175813bff3f3ca0ff11') in 0.037057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Hammer_06.prefab
+  artifactKey: Guid(6ecff5d00beabbd4bb0b49337c08cf31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Hammer_06.prefab using Guid(6ecff5d00beabbd4bb0b49337c08cf31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bbe97df731f7695f4a889d9771775ff') in 0.041587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Knife_03.prefab
+  artifactKey: Guid(8f6aacdabe74a4f41bfc21e28bf8e3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Knife_03.prefab using Guid(8f6aacdabe74a4f41bfc21e28bf8e3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e52b94319100796e979678f6108820a') in 0.038121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Knife_01.prefab
+  artifactKey: Guid(bba100a820f6d374694a3bb75837ea33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Knife_01.prefab using Guid(bba100a820f6d374694a3bb75837ea33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48122f888683e5ae55396ba7b2180d0e') in 0.036728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.159640 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_KnuckleDagger_01.prefab
+  artifactKey: Guid(6bae11fe83d7e2b43be9aa55d10fcfbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_KnuckleDagger_01.prefab using Guid(6bae11fe83d7e2b43be9aa55d10fcfbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f11b2d7ae8d31158a061d8fbd919f6a1') in 0.040664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Mace_02.prefab
+  artifactKey: Guid(7c82d9a32906fe7489ca56cc35bca5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Mace_02.prefab using Guid(7c82d9a32906fe7489ca56cc35bca5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4793981e240d3346e219f50e246ca88d') in 0.043367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Mace_05.prefab
+  artifactKey: Guid(a673a81e9980e484cb26d760719c39bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Mace_05.prefab using Guid(a673a81e9980e484cb26d760719c39bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6bad05db8053986434a79f4c5a2411c') in 0.039894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Mace_06.prefab
+  artifactKey: Guid(e33dff63db8dbcd469662eafdaa153e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Mace_06.prefab using Guid(e33dff63db8dbcd469662eafdaa153e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba481dcffa33ec39bc040a8d4e150051') in 0.038342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.096173 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Sceptre_02.prefab
+  artifactKey: Guid(4431544ce8669554484541bb31d3a17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Sceptre_02.prefab using Guid(4431544ce8669554484541bb31d3a17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f74e9f13e3897236b09599e782a5310f') in 0.037417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Sceptre_06.prefab
+  artifactKey: Guid(10083505f09268a4ba294fabe0b99d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Sceptre_06.prefab using Guid(10083505f09268a4ba294fabe0b99d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a75d11bace74a38cd2a87f21390e48') in 0.043941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Sceptre_07.prefab
+  artifactKey: Guid(e6a632e36b540b24aa74d53ac89e38f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Sceptre_07.prefab using Guid(e6a632e36b540b24aa74d53ac89e38f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec8007060b8bed4ee4d68f985e283c6') in 0.044069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Shield_02.prefab
+  artifactKey: Guid(56c5780ef6bb93b47a1c3f13ffe36a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Shield_02.prefab using Guid(56c5780ef6bb93b47a1c3f13ffe36a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c53cb81d681754e30bb8866a1783fe1c') in 0.043728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Sceptre_04.prefab
+  artifactKey: Guid(4edbfa1dae0f77e4a802442113a3254a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Sceptre_04.prefab using Guid(4edbfa1dae0f77e4a802442113a3254a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c3951553d86f834dd95509423ccefa') in 0.047652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Sceptre_03.prefab
+  artifactKey: Guid(f73be7b10fc184c439fd7018eccb210a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Sceptre_03.prefab using Guid(f73be7b10fc184c439fd7018eccb210a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b023d361f217a73362e139fd7cce10') in 0.048474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.048841 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Shield_05.prefab
+  artifactKey: Guid(24088ade532cd2748addb0fca54f85f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Shield_05.prefab using Guid(24088ade532cd2748addb0fca54f85f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247c65d21a519467ce7f3fec2f5905ea') in 0.038438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Shield_09.prefab
+  artifactKey: Guid(2c408d3c438774643b47f9dcf806637e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Shield_09.prefab using Guid(2c408d3c438774643b47f9dcf806637e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4842ec69d0aeae78122acc8cda25fb') in 0.037394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Spear_01.prefab
+  artifactKey: Guid(ef32dfc4d6986a54f879704fda89f164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Spear_01.prefab using Guid(ef32dfc4d6986a54f879704fda89f164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '185abbb4e4512f35dff18d63cdf4d10c') in 0.039737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Shield_07.prefab
+  artifactKey: Guid(9e52f80f1ddc92442a34ef25a0262e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Shield_07.prefab using Guid(9e52f80f1ddc92442a34ef25a0262e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03fd1dc93fb41f4c74fbc2d6ac210065') in 0.037094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.140914 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Spear_03.prefab
+  artifactKey: Guid(4010303cc34eb3745802735643a4f59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Spear_03.prefab using Guid(4010303cc34eb3745802735643a4f59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83180bde0a8175a0ec4d27135c3e64e3') in 0.039932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Spear_06.prefab
+  artifactKey: Guid(c1207ee640adda5479b485c67963a8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Spear_06.prefab using Guid(c1207ee640adda5479b485c67963a8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1de7ebdcce9410aee7d65c2e5baa2c1') in 0.039360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Staff_01.prefab
+  artifactKey: Guid(62a989f80c7fe164cae90ebeaa608b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Staff_01.prefab using Guid(62a989f80c7fe164cae90ebeaa608b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8461c64b6d2e8147648d85d9899dc4d0') in 0.041583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Spear_09.prefab
+  artifactKey: Guid(01fea6cc6d70f874b9aa94876348b446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Spear_09.prefab using Guid(01fea6cc6d70f874b9aa94876348b446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17048025b44ff1237754ca4ea2eebb4c') in 0.034480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Spear_08.prefab
+  artifactKey: Guid(779e5a6d75f5b1b4985da4860ddb05cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Spear_08.prefab using Guid(779e5a6d75f5b1b4985da4860ddb05cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd7a0a26e40781f86bc345b44879f35') in 0.036277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Spear_12.prefab
+  artifactKey: Guid(c6735e7170b5177448a767c6d1bbd238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Spear_12.prefab using Guid(c6735e7170b5177448a767c6d1bbd238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5284e06771dcade58714dcea0d121606') in 0.078492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.073697 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Staff_03.prefab
+  artifactKey: Guid(e6fe276dabb97444b93546fe61f2bc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Staff_03.prefab using Guid(e6fe276dabb97444b93546fe61f2bc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f299bf029e4e2228d6ccd03dbe81c807') in 0.093479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Staff_04.prefab
+  artifactKey: Guid(9209546c3f583ed45a05225e8c18f678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Staff_04.prefab using Guid(9209546c3f583ed45a05225e8c18f678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bfaf229e7475a2bb5710502d7c69f84') in 0.056196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.504151 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Staff_08.prefab
+  artifactKey: Guid(c2868d93385836e4385cabdb037a69cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Staff_08.prefab using Guid(c2868d93385836e4385cabdb037a69cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '615e8b8ac9e4d2df3995d002ccd3d362') in 0.037927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043672 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Sword_01.prefab
+  artifactKey: Guid(a1179b3754a6656469126cba8b02cba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Sword_01.prefab using Guid(a1179b3754a6656469126cba8b02cba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ab9bfc4f53d15acbab945a69f652ca') in 0.039387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Sword_02.prefab
+  artifactKey: Guid(b7290dd9a4b832e4f8566b940003ba62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Sword_02.prefab using Guid(b7290dd9a4b832e4f8566b940003ba62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b179d13b2c85b73739319d258c90453') in 0.046761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Sword_07.prefab
+  artifactKey: Guid(f39580772f2449e429693e5e9fce32e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Sword_07.prefab using Guid(f39580772f2449e429693e5e9fce32e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24bac442228d3b471a562363f973e79') in 0.050029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Sword_11.prefab
+  artifactKey: Guid(12d578ba423ecb0499f22068b393c104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Sword_11.prefab using Guid(12d578ba423ecb0499f22068b393c104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7176320da5038c833a9acf26d9d82cd') in 0.038925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.176236 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Sword_14.prefab
+  artifactKey: Guid(9f05ef6670f23e6489ec38160b33d1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Sword_14.prefab using Guid(9f05ef6670f23e6489ec38160b33d1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296af4cced6e1b514e35751aa6082bf6') in 0.048207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016671 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Sword_18.prefab
+  artifactKey: Guid(8fd0d5f054eabd84a835357d1db51e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Weapons/SM_Wep_Sword_18.prefab using Guid(8fd0d5f054eabd84a835357d1db51e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06b8d74e2a63abeaaa45350775de16d') in 0.038876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.325372 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/SiegeEngines/SM_Wep_Ballista_Mounted_01.prefab
+  artifactKey: Guid(fa45baf3a225cbe42b9b9cd43829e3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/SiegeEngines/SM_Wep_Ballista_Mounted_01.prefab using Guid(fa45baf3a225cbe42b9b9cd43829e3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02aea0a1e23d066d2023f946877d7800') in 0.053875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/SiegeEngines/SM_Wep_Trebuchet_01.prefab
+  artifactKey: Guid(214528f43496b364198ddd47de118245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/SiegeEngines/SM_Wep_Trebuchet_01.prefab using Guid(214528f43496b364198ddd47de118245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8159d0de1b577f474631f194233adcab') in 0.055089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/SiegeEngines/SM_Wep_Rock_01.prefab
+  artifactKey: Guid(9a27b28aaddfd7e4c84339511e0d10e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/SiegeEngines/SM_Wep_Rock_01.prefab using Guid(9a27b28aaddfd7e4c84339511e0d10e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88f9ff7e6492edf7e2bd0c6d99070b0f') in 0.044055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/SiegeEngines/SM_Wep_Hot_Oil_02.prefab
+  artifactKey: Guid(c8dbe9d21e178fb4b8f0c81393393249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/SiegeEngines/SM_Wep_Hot_Oil_02.prefab using Guid(c8dbe9d21e178fb4b8f0c81393393249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58d6bfb99e01d5da9c9546cfcc22593') in 0.085028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3573.097986 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Vehicles/SM_Veh_Boat_Dinghy_01.prefab
+  artifactKey: Guid(40193765ec48a8644b2a5454f2954276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Vehicles/SM_Veh_Boat_Dinghy_01.prefab using Guid(40193765ec48a8644b2a5454f2954276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c4a6c7c8a4d7b6356b8eb562f538be') in 0.049855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Vehicles/SM_Veh_Cart_04.prefab
+  artifactKey: Guid(181bdb47d43c9ae4a8e192d32128a20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Vehicles/SM_Veh_Cart_04.prefab using Guid(181bdb47d43c9ae4a8e192d32128a20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b48a3c66591f204e4f7910da749b90f9') in 0.040787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Vehicles/SM_Wep_Hot_Oil_01.prefab
+  artifactKey: Guid(fc8bdeb36d92fb5448f68b5b827d31cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Vehicles/SM_Wep_Hot_Oil_01.prefab using Guid(fc8bdeb36d92fb5448f68b5b827d31cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e205136f840caa52a53ba0010e4d32') in 0.038971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Vehicles/SM_Veh_Cart_Fireworks_01.prefab
+  artifactKey: Guid(546396fc131670c46a46ed3027507f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Vehicles/SM_Veh_Cart_Fireworks_01.prefab using Guid(546396fc131670c46a46ed3027507f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceeaefbe66b69012b509433767156241') in 0.039549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Vehicles/SM_Veh_Cart_Damaged_01.prefab
+  artifactKey: Guid(901188bf80538d8449ccb601e00b142c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoreAssets/Polygon Packs/PolygonFantasyKingdom/Prefabs/Vehicles/SM_Veh_Cart_Damaged_01.prefab using Guid(901188bf80538d8449ccb601e00b142c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae263957ea50b918fac7b5561d9b6dd1') in 0.040913 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
