@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Turret
   - Path
+  - Tile
   layers:
   - Default
   - TransparentFX
