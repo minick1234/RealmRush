@@ -14,20 +14,26 @@ public class TargetLocator : MonoBehaviour
     [SerializeField] private float Range = 2.5f;
 
     [SerializeField] private ParticleSystem projectileParticles;
+    [SerializeField] private List<Enemy> _enemies;
+    [SerializeField] private ObjectPool _objectPool;
 
-    [SerializeField] private float timeElapsed = 0f;
+    [SerializeField] private List<Enemy> _enemiesActive;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
+        _objectPool = FindObjectOfType<ObjectPool>();
+        FindAllEnemiesInScene();
+        ActiveEnemiesInScene();
     }
-
 
     // Update is called once per frame
     void Update()
     {
         FindClosestEnemy();
-        AimWeapon();
+        if (Target != null)
+        {
+            AimWeapon();
+        }
 
         if (Target == null)
         {
@@ -36,19 +42,37 @@ public class TargetLocator : MonoBehaviour
         }
     }
 
+    private void FindAllEnemiesInScene()
+    {
+        foreach (var currPoolEnemy in _objectPool.GetCurrentPoolObjects())
+        {
+            _enemies.Add(currPoolEnemy.GetComponent<Enemy>());
+        }
+    }
+
+    private void ActiveEnemiesInScene()
+    {
+        _enemiesActive.Clear();
+        foreach (var enemy in _enemies)
+        {
+            if (enemy.gameObject.activeInHierarchy)
+            {
+                _enemiesActive.Add(enemy);
+            }
+        }
+    }
+
     //This can be refactored to use a sphere check and then collect everything inside of that and check the distances between those objects and whichever is closer is the target.
     //this way i can also make a cool design or gizmo thing that will show the distance a turret can cover. - although this will suffice for now.
     private void FindClosestEnemy()
     {
-        //Get all the enemies in the scene.
-        Enemy[] enemies = FindObjectsOfType<Enemy>();
-
+        ActiveEnemiesInScene();
         //The closest target - set to null because we havent found it yet.
         Transform closestTarget = null;
 
         //Set the original distance to be the longest possible. so its mathf.infinity because the first enemy we wanna find is this far away.
         float maxDistanceTillNextEnemy = Mathf.Infinity;
-        foreach (var enemy in enemies)
+        foreach (var enemy in _enemiesActive)
         {
             float targetDistance = Vector3.Distance(this.gameObject.transform.position, enemy.transform.position);
 
@@ -65,13 +89,11 @@ public class TargetLocator : MonoBehaviour
                 Vector3.Distance(this.gameObject.transform.position, closestTarget.transform.position);
             if (distanceAgain <= Range)
             {
-                timeElapsed = 0f;
                 Target = closestTarget;
             }
             else
             {
                 Target = null;
-                timeElapsed = 0f;
             }
         }
     }

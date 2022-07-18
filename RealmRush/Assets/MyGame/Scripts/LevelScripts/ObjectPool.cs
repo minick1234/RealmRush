@@ -83,6 +83,11 @@ public class ObjectPool : MonoBehaviour
         }
     }
 
+    public GameObject[] GetCurrentPoolObjects()
+    {
+        return PooledEnemies;
+    }
+
     public static void DecreaseCurrentlyActiveEnemies()
     {
         CurrentNumberOfEnemiesOnGrid--;

@@ -24,6 +24,7 @@ public class CoordinateLabeler : MonoBehaviour
 
         _waypoint = GetComponentInParent<Waypoint>();
         //CoordinateLabelText.enabled = false;
+        CoordinateLabelText.enabled = false;
 
         //run the coordinates to be set in game once, but not update.
         DisplayCurrentCoordinates();
@@ -35,6 +36,8 @@ public class CoordinateLabeler : MonoBehaviour
         //Check if the unity editor is in play mode or edit mode.
         if (!Application.isPlaying)
         {
+            CoordinateLabelText.enabled = true;
+
             //if it is in edit mode and only edit mod we do this.
             //we want to display the coordinates of this tile ontop of the object while we are in the editor.
             DisplayCurrentCoordinates();
@@ -62,7 +65,8 @@ public class CoordinateLabeler : MonoBehaviour
         else
         {
             CoordinateLabelText.color = LabelsNonValidColour;
-            var color =new Color(CoordinateLabelText.color.r, CoordinateLabelText.color.g, CoordinateLabelText.color.b ,CoordinateLabelText.color.a);
+            var color = new Color(CoordinateLabelText.color.r, CoordinateLabelText.color.g, CoordinateLabelText.color.b,
+                CoordinateLabelText.color.a);
             color.a = 0.75f;
             CoordinateLabelText.color = color;
         }

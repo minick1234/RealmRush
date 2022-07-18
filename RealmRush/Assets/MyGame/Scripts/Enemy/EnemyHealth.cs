@@ -47,7 +47,6 @@ public class EnemyHealth : MonoBehaviour
         if (other.gameObject.CompareTag("Turret"))
         {
             tg = other.gameObject.transform.parent.GetComponent<TargetLocator>();
-            Debug.Log(tg);
             if (currentHitPoints > 0)
             {
                 //reduce the current hitpoints that the enemy has left.
