@@ -867,7 +867,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.5
+      scalar: 0.75
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -5251,7 +5251,9 @@ MonoBehaviour:
   RotationSpeed: 3.5
   Range: 3
   projectileParticles: {fileID: 2084050336364006399}
-  timeElapsed: 0
+  _enemies: []
+  _objectPool: {fileID: 0}
+  _enemiesActive: []
 --- !u!114 &-7371127524475397203
 MonoBehaviour:
   m_ObjectHideFlags: 0

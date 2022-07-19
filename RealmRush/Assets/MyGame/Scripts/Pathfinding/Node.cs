@@ -9,6 +9,7 @@ public class Node
     public bool isWalkable;
     public bool isExplored;
     public bool isPath;
+    public bool isPlaceable = true;
     public Node connectedTo;
 
     public Node()

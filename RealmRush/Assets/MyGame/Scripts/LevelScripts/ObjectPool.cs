@@ -78,7 +78,10 @@ public class ObjectPool : MonoBehaviour
         PooledEnemies = new GameObject[MaxEnemiesInPool];
         for (int i = 0; i < PooledEnemies.Length; i++)
         {
-            PooledEnemies[i] = Instantiate(EnemyObject);
+            GameObject tempObj = Instantiate(EnemyObject);
+            tempObj.transform.parent = this.gameObject.transform;
+            PooledEnemies[i] = tempObj;
+
             PooledEnemies[i].SetActive(false);
         }
     }

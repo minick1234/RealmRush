@@ -80,13 +80,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _waypoints: []
-  SecondsBeforeNextWaypoint: 0.01
-  CurrentlyTraversing: 0
+  _pathfinder: {fileID: 0}
+  _gridManager: {fileID: 0}
   _enemy: {fileID: 0}
-  ReloopPath: 0
-  DoneOnce: 0
-  doneSpawning: 0
-  TravelLength: 0.75
+  TravelSpeed: 2
+  TimeBetweenNextWaypoint: 0
 --- !u!114 &-248561996976405514
 MonoBehaviour:
   m_ObjectHideFlags: 0

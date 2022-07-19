@@ -49,6 +49,7 @@ public class GridManager : MonoBehaviour
         if (Grid.ContainsKey(coordinatesOfNodeToBlock))
         {
             Grid[coordinatesOfNodeToBlock].isWalkable = false;
+            Grid[coordinatesOfNodeToBlock].isPlaceable = false;
         }
     }
 
@@ -66,9 +67,19 @@ public class GridManager : MonoBehaviour
     {
         Vector3 position = new Vector3();
         position.x = coordinates.x * UnityGridSize;
-        position.y = coordinates.y * UnityGridSize;
+        position.z = coordinates.y * UnityGridSize;
 
         return position;
+    }
+
+    public void ResetNodes()
+    {
+        foreach (var node in Grid)
+        {
+            node.Value.connectedTo = null;
+            node.Value.isExplored = false;
+            node.Value.isPath = false;
+        }
     }
 
     private void GetAllTilesFromScene()
@@ -79,9 +90,6 @@ public class GridManager : MonoBehaviour
         {
             Vector2 coordinates = new Vector2(tileItem.gameObject.transform.position.x,
                 tileItem.gameObject.transform.position.z);
-
-            Debug.Log(tileItem.gameObject.transform.position.x + " is the x value and the z value is : " + tileItem.gameObject.transform.position.z + " and my gameobject name is: " + tileItem.name);
-            
             try
             {
                 Node node = new Node(coordinates, true);

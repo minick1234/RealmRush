@@ -12,11 +12,22 @@ public class Pathfinder : MonoBehaviour
     private Vector2[] directions3 = { Vector2.down, Vector2.left, Vector2.up, Vector2.right, };
     private Vector2[] directions4 = { Vector2.down, Vector2.up, Vector2.left, Vector2.right, };
 
-    private GridManager _gridManager;
+    [SerializeField] private GridManager _gridManager;
     private Dictionary<Vector2, Node> grid = new Dictionary<Vector2, Node>();
 
     [SerializeField] private Vector2 StartCoordinates;
+
+    public Vector2 startCoordinates
+    {
+        get { return StartCoordinates; }
+    }
+
     [SerializeField] private Vector2 DestinationCoordinates;
+
+    public Vector2 destinationCoordinates
+    {
+        get { return DestinationCoordinates; }
+    }
 
     [SerializeField] private Node startNode;
     [SerializeField] private Node destinationNode;
@@ -31,24 +42,44 @@ public class Pathfinder : MonoBehaviour
         if (_gridManager != null)
         {
             grid = _gridManager.Grid;
+            startNode = grid[StartCoordinates];
+
+            destinationNode = grid[DestinationCoordinates];
         }
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        startNode = _gridManager.Grid[StartCoordinates];
-        destinationNode = _gridManager.Grid[DestinationCoordinates];
-
-        BreadthFirstSearch();
-        BuildPath();
+        GetNewPath();
     }
 
-
-    private void BreadthFirstSearch()
+    public List<Node> GetNewPath()
     {
-        nodes_queue.Enqueue(startNode);
-        NodesReached.Add(startNode.GridCoordinates, startNode);
+        _gridManager.ResetNodes();
+        BreadthFirstSearch(startCoordinates);
+        return BuildPath();
+    }
+
+    public List<Node> GetNewPath(Vector2 coordinates)
+    {
+        _gridManager.ResetNodes();
+        BreadthFirstSearch(coordinates);
+        return BuildPath();
+    }
+
+    private void BreadthFirstSearch(Vector2 coordinates)
+    {
+        startNode.isPlaceable = false;
+        startNode.isWalkable = true;
+        destinationNode.isPlaceable = false;
+        destinationNode.isWalkable = true;
+
+        nodes_queue.Clear();
+        NodesReached.Clear();
+
+        nodes_queue.Enqueue(_gridManager.Grid[coordinates]);
+        NodesReached.Add(coordinates, _gridManager.Grid[coordinates]);
 
         while (nodes_queue.Count > 0)
         {
@@ -105,5 +136,31 @@ public class Pathfinder : MonoBehaviour
                 nodes_queue.Enqueue(neighbour);
             }
         }
+    }
+
+    //prevents the ability to block the path fully.
+    public bool WillBlockPath(Vector2 coordinates)
+    {
+        if (grid.ContainsKey(coordinates))
+        {
+            bool previousState = grid[coordinates].isWalkable;
+            grid[coordinates].isWalkable = false;
+            List<Node> newPath = GetNewPath();
+            grid[coordinates].isWalkable = previousState;
+
+            //this is not a valid path as the path will be blocked.
+            if (newPath.Count <= 1)
+            {
+                GetNewPath();
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    public void NotifyRecievers()
+    {
+        BroadcastMessage("FindPath", false, SendMessageOptions.DontRequireReceiver);
     }
 }

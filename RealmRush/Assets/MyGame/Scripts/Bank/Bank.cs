@@ -5,7 +5,6 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-[RequireComponent(typeof(TextMeshProUGUI))]
 public class Bank : MonoBehaviour
 {
     [SerializeField] private int startingBalance = 150;

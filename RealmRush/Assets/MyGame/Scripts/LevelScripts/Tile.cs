@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 
 public class Tile : MonoBehaviour
@@ -11,7 +12,7 @@ public class Tile : MonoBehaviour
 
     [SerializeField] private GridManager _gridManager;
     [SerializeField] private Vector2 coordinates = new Vector2();
-
+    [SerializeField] private Pathfinder _pathfinder;
 
     //this is super stupid and inefficient and should be in its own class or game manager where it will be able to be changed later.
     //but for right now whatever.
@@ -19,6 +20,7 @@ public class Tile : MonoBehaviour
 
     private void Awake()
     {
+        _pathfinder = FindObjectOfType<Pathfinder>();
         _gridManager = FindObjectOfType<GridManager>();
     }
 
@@ -35,17 +37,26 @@ public class Tile : MonoBehaviour
         }
     }
 
-
     //This is again working like on mouse over. Unity in the back is constantly checking for this event to fire and when it does, it checks for 
     //where this Onmousedown code is and then executes the instructions inside of it based on the collider that is attached to the same game object.
     private void OnMouseDown()
     {
         //Make sure that we are able to place down on this tile.
-        if (_IsPlaceableDefence)
+        if (_gridManager.GetNode(coordinates).isPlaceable && !_pathfinder.WillBlockPath(coordinates))
         {
+            Debug.Log("for some reason i am in here.");
             bool IsPlaced = TowerObject.CreateTower(TowerObject, transform.position);
-            //Disable the ability to be able to place on this tile again since we spawned a new turret.
-            this._IsPlaceableDefence = !IsPlaced;
+            if (IsPlaced)
+            {
+                _gridManager.BlockNode(coordinates);
+                _pathfinder.NotifyRecievers();
+            }else {
+            return;
+            }
+        }
+        else if (_pathfinder.WillBlockPath(coordinates))
+        {
+            Debug.Log("Sorry but placing the tower there will block the path from completing.");
         }
     }
 }
