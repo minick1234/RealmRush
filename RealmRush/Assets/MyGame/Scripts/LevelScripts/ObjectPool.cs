@@ -9,7 +9,7 @@ public class ObjectPool : MonoBehaviour
     [SerializeField] private GameObject EnemyObject;
     [SerializeField] private int MaxEnemiesInPool = 15;
     [SerializeField] private int MaxEnemiesAllowedToSpawn = 15;
-    [SerializeField] private static int CurrentNumberOfEnemiesOnGrid; 
+    [SerializeField] private static int CurrentNumberOfEnemiesOnGrid;
     [SerializeField] private float DelayBetweenEnemies = 2f;
     [SerializeField] private float MaxDelayBetweenEnemies = 5f;
     [SerializeField] private float MinDelayBetweenEnemies = 1f;
@@ -26,8 +26,8 @@ public class ObjectPool : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        if (!CurrentlySpawning && CheckIfPoolHasValidSpawn() && (CurrentNumberOfEnemiesOnGrid < MaxEnemiesAllowedToSpawn))
+        if (!CurrentlySpawning && CheckIfPoolHasValidSpawn() &&
+            (CurrentNumberOfEnemiesOnGrid < MaxEnemiesAllowedToSpawn))
         {
             CurrentlySpawning = true;
             StartCoroutine(SpawnEnemy(DelayBetweenEnemies));
@@ -92,6 +92,4 @@ public class ObjectPool : MonoBehaviour
     {
         CurrentNumberOfEnemiesOnGrid--;
     }
-    
-
 }

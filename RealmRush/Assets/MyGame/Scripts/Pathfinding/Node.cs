@@ -29,4 +29,12 @@ public class Node
         isPath = ispath;
         connectedTo = nodeconnectedto;
     }
+
+    public Node(Vector2 gridCoordinates, bool iswalkable, bool isexplored, bool ispath)
+    {
+        GridCoordinates = gridCoordinates;
+        isWalkable = iswalkable;
+        isExplored = isexplored;
+        isPath = ispath;
+    }
 }

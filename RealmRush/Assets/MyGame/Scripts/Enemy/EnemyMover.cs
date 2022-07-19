@@ -7,7 +7,7 @@ using Object = System.Object;
 [RequireComponent(typeof(Enemy))]
 public class EnemyMover : MonoBehaviour
 {
-    [SerializeField] private List<Waypoint> _waypoints = new List<Waypoint>();
+    [SerializeField] private List<Tile> _waypoints = new List<Tile>();
 
     [SerializeField] private float SecondsBeforeNextWaypoint = 2f;
     [SerializeField] private bool CurrentlyTraversing = false;
@@ -40,7 +40,6 @@ public class EnemyMover : MonoBehaviour
 
     private void Awake()
     {
-        FindPath();
         ReturnToStart();
         _enemy = this.gameObject.GetComponent<Enemy>();
     }
@@ -50,7 +49,6 @@ public class EnemyMover : MonoBehaviour
     {
         DoneOnce = false;
         CurrentlyTraversing = false;
-        FindPath();
         ReturnToStart();
     }
 
@@ -123,19 +121,6 @@ public class EnemyMover : MonoBehaviour
         }
     }
 
-    //this goes over every single item inside of the path gameobject and assigns it to our ai's path.
-    private void FindPath()
-    {
-        //if we find a path we will clear the old path first.
-        _waypoints.Clear();
-
-        GameObject WaypointContainer = GameObject.FindGameObjectWithTag("Path");
-
-        foreach (Transform waypoint in WaypointContainer.transform)
-        {
-            _waypoints.Add(waypoint.gameObject.GetComponent<Waypoint>());
-        }
-    }
 
     //This is not used for now as i dont want to remove the waypoints but it would be a viable options if i wanted to remove the waypoints from the list after visiting it.
     // private IEnumerator MoveToWayPoint()
